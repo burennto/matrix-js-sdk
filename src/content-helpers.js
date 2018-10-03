@@ -69,8 +69,8 @@ module.exports = {
      */
     makeTextMessage: function(body) {
         return {
-            msgtype: "m.text",
-            body: 'HELLO LUMIN TEXT',
+            msgtype: "m.foo",
+            body: body,
         };
     },
 
