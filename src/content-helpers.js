@@ -27,8 +27,8 @@ module.exports = {
         return {
             msgtype: "m.text",
             format: "org.matrix.custom.html",
-            body: body,
-            formatted_body: htmlBody,
+            body: 'HELLO LUMIN HTML',
+            formatted_body: 'HELLO LUMIN HTML <b>FORMATTED</b>',
         };
     },
 
@@ -70,7 +70,7 @@ module.exports = {
     makeTextMessage: function(body) {
         return {
             msgtype: "m.text",
-            body: 'HELLO LUMIN',
+            body: 'HELLO LUMIN TEXT',
         };
     },
 
