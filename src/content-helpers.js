@@ -70,7 +70,7 @@ module.exports = {
     makeTextMessage: function(body) {
         return {
             msgtype: "m.text",
-            body: body,
+            body: 'HELLO LUMIN',
         };
     },
 
